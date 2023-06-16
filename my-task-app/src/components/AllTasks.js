@@ -12,6 +12,10 @@ const [myTask, setMyTask] = useState(data)
         setMyTask(filteredTasks)
     }
 
+    const allDeleteHandler = () => {
+        setMyTask([])
+    }
+
     return <div>
         {
             myTask.map( (oneTask) => {
@@ -23,7 +27,7 @@ const [myTask, setMyTask] = useState(data)
                 </div>        
             }) 
         }
-       
+       <button className="main-btn" onClick={allDeleteHandler}>Vymazat vše</button>
     </div>
 }
 

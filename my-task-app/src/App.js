@@ -3,7 +3,7 @@ import AllTasks from "./components/AllTasks"
 const App = () => { 
 
    return(
-    <AllTasks/>
+    <div className="all-tasks"> <AllTasks/></div>
   )
  }
 
