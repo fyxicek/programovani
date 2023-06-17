@@ -1,8 +1,8 @@
 import "./DecreaseBtn.css"
 
-const DecreaseBtn = () => {
+const DecreaseBtn = (props) => {
     return(
-        <button>Snížit</button>
+        <button onClick={props.decrease}>Snížit</button>
     )
 }
 
