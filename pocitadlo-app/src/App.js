@@ -2,6 +2,8 @@ import "./components/DecreaseBtn"
 import DecreaseBtn from "./components/DecreaseBtn"
 import { useState } from "react"
 import Increase from "./components/Increase"
+import DeleteBtn from "./components/DeleteBtn"
+
 
 const App = () => {
 
@@ -19,12 +21,18 @@ const increaseOne = () => {
   setValue(increaseValue)
 }
 
+const deleteOne = () => {
+  const deleteValue = value - value
+  setValue(deleteValue)
+}
+
   return(
     <>
     <h1>Počítadlo</h1>
     <h2>{value}</h2>
     <DecreaseBtn decrease={decreaseOne}/>
     <Increase increase={increaseOne}/>
+    <DeleteBtn deleteOne={deleteOne}/>
     </>
   )
 }
