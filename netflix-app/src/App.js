@@ -1,9 +1,12 @@
 import "./data"
 import Movie from "./components/Movie"
 
+
 const App = () => {
   return(
-    <Movie/>
+    <div><Movie/>
+    </div>
+    
   )
 }
 
