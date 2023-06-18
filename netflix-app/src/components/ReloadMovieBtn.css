@@ -1,0 +1,13 @@
+.reload-movie-btn{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s ease 0.3s;
+    margin:0px 10px ;
+}
+.reload-movie-btn:hover{
+    background-color: black;
+}

@@ -30,3 +30,9 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.changeBtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

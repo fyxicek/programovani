@@ -1,4 +1,6 @@
 body{
     background-color: #042940;
     color: white;
+    height: 100%vh;
+    width: 100%vh;
 }
