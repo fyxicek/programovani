@@ -27,13 +27,13 @@ const deleteOne = () => {
 }
 
   return(
-    <>
+    <div className="counter">
     <h1>Počítadlo</h1>
     <h2>{value}</h2>
     <DecreaseBtn decrease={decreaseOne}/>
     <Increase increase={increaseOne}/>
     <DeleteBtn deleteOne={deleteOne}/>
-    </>
+    </div>
   )
 }
 

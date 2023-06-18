@@ -2,7 +2,7 @@ import "./DeleteBtn.css"
 
 const DeleteBtn = (props) => {
     return(
-        <button onClick={props.deleteOne}>Původní hodnota</button>
+        <button className="btn" onClick={props.deleteOne}>Původní hodnota</button>
     )
     
 }
