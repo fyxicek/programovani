@@ -1,9 +1,9 @@
-import data from "../data"
+import data from "./data"
 
 
 const App = () => {
+  return <div>
   {
-    return <div>
     data.map((oneMovie) => {
     const {id, image, title, age, tags, description} = oneMovie
 
